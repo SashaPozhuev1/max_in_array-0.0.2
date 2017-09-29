@@ -41,7 +41,6 @@ int main() {
        
     if ( ( proverka( mass1 ) ) && ( proverka( mass2 ) ) ) {
         cout << Max_Element( mass1 ) + Max_Element( mass2 );
-            
     }
     else {
         cout << "An error has occured while reading numbers from line" << endl;
